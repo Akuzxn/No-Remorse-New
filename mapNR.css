@@ -478,6 +478,12 @@ iframe {
 
 }
 
+@media(max-width: 1500px){
+	iframe {
+		bottom: 0%;
+	}
+}
+
 map {
     border-radius: 0px;
 
