@@ -95,7 +95,7 @@ main {
 	box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
 	border-radius: 0px;
 	height: 33vh;
-	width: 53vh;
+	width: 33vh;
 	/* height: 32vh;
 	width: 22vh; */
 	text-align: center;
@@ -105,9 +105,20 @@ main {
 	padding-bottom: 2.3vh;
 	margin: 1vh;
 	border: 2px solid rgb(255, 255, 255);
+
+	height: 570px;
+	
+	
 }
 
-
+@media(max-width: 1500px){
+	.items .vare{
+		width: 43vh;
+		padding-top: 02.3vh;
+		padding-bottom: 2.3vh;
+		height: 450px;
+	}
+}
 
 .vare img {
 	height: 36vh;
@@ -197,7 +208,7 @@ main {
 	padding: 1vh;
 	text-decoration: none;
 	border-radius: 0px;
-	margin: 1vh;
+	margin: 0vh;
 	background-color: transparent;
 
 }
@@ -268,9 +279,6 @@ main {
 	color: black;
 }
 
-.items .vare{
-	height: 570px;
-}
 
 .btn {
 	color: rgb(255, 255, 255);
